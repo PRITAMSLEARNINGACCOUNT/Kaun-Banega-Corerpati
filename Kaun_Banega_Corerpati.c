@@ -6,7 +6,7 @@ char Answer_List[17][100];
 char Answer_option_list[68][100];
 int hello = 2;
 int count = 0;
-int money[2] = {1000, 2000};
+int money[2] = {1000, 2000,3000,5000,10000,20000,40000,80000,160000,320000};
 int option = 0;
 int show_option = 0;
 int temp_money = 0;
@@ -31,7 +31,7 @@ int cheeck(char *str, char lst[][100])
 int main()
 {
     printf("This Part Is For Setting Up The Game(Not For Users)\n");
-    int n = 2;
+    int n = 10;
     for (int i = 0; i < n; i++)
     {
         printf("Enter The %d Question\n", i + 1);
